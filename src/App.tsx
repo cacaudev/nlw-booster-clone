@@ -1,10 +1,12 @@
 import React from 'react';
 import './static/css/global.css';
+import Header from './components/Header';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Next Level Week #01</h1>
+    <div>
+      <Home />
     </div>
   );
 }

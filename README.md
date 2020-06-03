@@ -1,5 +1,5 @@
 # NLW Booster #1 Week Clone
-Repository to study and practice concepts introduced on Next Level Week #1 by RocketSeat.
+Repository to study and practice programming concepts introduced on Next Level Week #1 by RocketSeat.
 
 ## 🚀 Guide
 Frontend interface compiled with Typescript + ReactJS + NodeJS.
