@@ -1,5 +1,5 @@
-import logo from "./logo.png";
-import homeBackground from './home-background.png';
+import logo from "./logo.svg";
+import homeBackground from './home-background.svg';
 
 export {
   logo,

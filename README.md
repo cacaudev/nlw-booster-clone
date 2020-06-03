@@ -1,9 +1,18 @@
-# NLW Booster #1 Week Clone
-Repository to study and practice programming concepts introduced on Next Level Week #1 (Booster Track) by [Rocketseat](https://rocketseat.com.br).
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logonextlevelweek.svg" width="250px" />
+</h1>
 
-## 🚀 Guide
-Frontend interface compiled with Typescript + ReactJS + NodeJS.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 NLW Booster #1 Week Clone
+Repository to study and practice front-end programming concepts introduced on Next Level Week #1 (Booster Track) by [Rocketseat](https://rocketseat.com.br). <br/>
+Front-end interface compiled with Typescript + ReactJS + NodeJS.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
+## Project
+
+<h1 align="center">
+    <img alt="Ecoleta" title="#Ecoleta" src=".github/logoecoleta.svg" width="250px" />
+</h1>
+Project was the app 'Ecoleta' with the objective of connecting people to companies by registering and displaying collect points for specific waste to recycle (light bulbs, batteries, cooking oil). 
 
 ## 📕 Installation
 
