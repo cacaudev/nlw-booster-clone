@@ -12,7 +12,7 @@ const Home = () => {
           <img src={logo} alt="Ecoleta logo" />
         </header>
         <main>
-          <h1>Seu marketplace de coleta de resíduos.</h1>
+          <h1>Seu marketplace de coleta de resíduos</h1>
           <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente</p>
           <Link to="/create-point">
             <span>

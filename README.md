@@ -3,9 +3,8 @@
 </h1>
 
 # 🚀 NLW Booster #1 Week Clone
-Repository to study and practice front-end programming concepts introduced on Next Level Week #1 (Booster Track) by [Rocketseat](https://rocketseat.com.br). <br/>
-Front-end interface compiled with Typescript + ReactJS + NodeJS.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+Repository to study and practice front-end programming concepts introduced on Next Level Week #1 (Booster Track) by [Rocketseat](https://rocketseat.com.br). Front-end interface compiled with Typescript + ReactJS + NodeJS, and
+bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Project
 
@@ -13,6 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     <img alt="Ecoleta" title="#Ecoleta" src=".github/logoecoleta.svg" width="250px" />
 </h1>
 Project was the app 'Ecoleta' with the objective of connecting people to companies by registering and displaying collect points for specific waste to recycle (light bulbs, batteries, cooking oil). 
+<h1 align="center">
+    <img alt="Ecoleta-Preview" title="#EcoletaPreview" src=".github/ecoleta-homepage.png" width="650px" />
+</h1>
 
 ## 📕 Installation
 
