@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './styles.css';
-import api from '../../services/api';
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./styles.css";
+import api from "../../services/api";
 import {
   logo,
   baterias,
@@ -9,20 +9,15 @@ import {
   lampadas,
   oleo,
   organicos,
-  papeisPapelao
-} from '../../static/img';
-import { FiArrowLeft } from 'react-icons/fi';
-import {
-  Map,
-  TileLayer,
-  Marker,
-  Popup
-} from 'react-leaflet';
+  papeisPapelao,
+} from "../../assets/img";
+import { FiArrowLeft } from "react-icons/fi";
+import { Map, TileLayer, Marker } from "react-leaflet";
 
 const CreatePoint = () => {
   useEffect(() => {
-    api.get('items').then(response => {
-      console.log('response', response);
+    api.get("items").then((response) => {
+      console.log("response", response);
     });
   }, []);
 
@@ -36,7 +31,9 @@ const CreatePoint = () => {
         </Link>
       </header>
       <form>
-        <h1>Cadastro do <br /> ponto de coleta</h1>
+        <h1>
+          Cadastro do <br /> ponto de coleta
+        </h1>
 
         <fieldset>
           <legend>
@@ -46,30 +43,18 @@ const CreatePoint = () => {
 
         <div className="field">
           <label htmlFor="name">Nome da entidade:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-          />
+          <input type="text" name="name" id="name" />
         </div>
 
         <div className="field-group">
           <div className="field">
             <label htmlFor="email">E-mail:</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-            />
+            <input type="email" name="email" id="email" />
           </div>
 
           <div className="field">
             <label htmlFor="whatsapp">WhatsApp:</label>
-            <input
-              type="text"
-              name="whatsapp"
-              id="whatsapp"
-            />
+            <input type="text" name="whatsapp" id="whatsapp" />
           </div>
         </div>
 
@@ -135,12 +120,10 @@ const CreatePoint = () => {
             </li>
           </ul>
         </fieldset>
-        <button type="submit">
-          Cadastrar ponto de coleta
-        </button>
+        <button type="submit">Cadastrar ponto de coleta</button>
       </form>
     </div>
   );
-}
+};
 
 export default CreatePoint;

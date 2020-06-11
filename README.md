@@ -3,8 +3,9 @@
 </h1>
 
 # 🚀 NLW Booster #1 Week Clone
+
 Repository to study and practice front-end programming concepts introduced on Next Level Week #1 (Booster Track) by [Rocketseat](https://rocketseat.com.br). Front-end interface compiled with Typescript + ReactJS + NodeJS, and
-bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project
 
@@ -18,12 +19,17 @@ Project was the app 'Ecoleta' with the objective of connecting people to compani
 
 ## 📕 Installation
 
-### `npm install`
+### Frontend & Backend
+
+#### `npm install`
+
 Install dependencies.
 
 ## 💻 Run Locally
 
-### `npm start`
+### Frontend
+
+#### `npm run dev`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -31,15 +37,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.
 
-## 📝 Run Tests
+### Backend
 
-### `npm test`
+#### `npm run dev`
 
-Launches the test runner in the interactive watch mode.<br />
+Runs the server in the development mode.<br />
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser or you can use [Postman](https://www.postman.com) or [Insomnia](https://insomnia.rest).
